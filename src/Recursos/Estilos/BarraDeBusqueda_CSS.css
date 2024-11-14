@@ -1,0 +1,43 @@
+.navbar {
+    background-color: rgba(100, 0, 0, 0.5);
+    color: white;
+    width: 100%;
+    padding: 1.5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.informacion_navbar {
+    width: 65%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.foto_perfil {
+    object-fit: cover;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+.texto_perfil {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Noto Serif', serif;
+}
+
+.texto_perfil_subtitulo {
+    font-size: small;
+}
+
+.secciones_barra {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100%;
+}
